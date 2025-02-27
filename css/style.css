@@ -1,3 +1,19 @@
-body {
-    background: antiquewhite;
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #4676A9;
+    text-align: center;
+}
+
+h2 {
+    color: #cb721c;
+    text-align: start;
+}
+
+footer {
+    background-color: #22466c;
+    color: #fff;
+    text-align: center;
 }
