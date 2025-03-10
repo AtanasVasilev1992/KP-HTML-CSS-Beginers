@@ -30,6 +30,16 @@ h3 {
     font-size: 1.5rem;
 }
 
+a {
+    color: #2b930b;
+}
+
+a:hover,
+a:focus-visible {
+    color: #6e9f5f;
+}
+
+
 section {
     margin-block: 100px;
 }
