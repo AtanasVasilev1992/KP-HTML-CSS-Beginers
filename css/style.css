@@ -39,9 +39,33 @@ a:focus-visible {
     color: #6e9f5f;
 }
 
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+ul,
+ol {
+    color: black;
+}
+
+li {
+    margin-bottom: 5px;
+}
 
 section {
     margin-block: 100px;
+}
+
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+
+.two-column-layout {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .teal-text {
@@ -60,7 +84,7 @@ section {
     background-image: url("../images/simple-steps.jpg");
     padding: 24px;
     border: #0b4a5a solid 10px;
-    
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
