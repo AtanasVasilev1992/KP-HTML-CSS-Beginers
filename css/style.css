@@ -50,6 +50,10 @@ li {
     margin-bottom: 5px;
 }
 
+ul li::marker {
+    content: '👉';
+}
+
 section {
     margin-block: 100px;
 }
